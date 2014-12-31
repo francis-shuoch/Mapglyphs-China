@@ -47,9 +47,6 @@
 }
 
 /*Maps*/
-.map-cn:before {
-	content: "\e800";
-}
 .map-cn-hlj:before {
 	content: "\e801";
 }
