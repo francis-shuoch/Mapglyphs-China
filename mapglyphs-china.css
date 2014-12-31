@@ -1,0 +1,157 @@
+/*!
+ * Map Glyphs of China provinces 1.0 by @francischan - http://github.com/francis-liberty - @francischan
+ * This project is based on the project Map Glyphs 1.0 by @tedgrajeda - http://mapglyphs.com - @mapglyphs
+ *  License - http://mapglyphs.com/license (CC BY-ND 3.0)
+ * This project didn't include any font by mapglyphs.com
+ */
+@font-face {
+	font-family: 'MapGlyphs-China';
+	src:url('MapGlyphs-China.eot');
+	src:url('MapGlyphs-China.eot?#iefix') format('embedded-opentype'),
+		url('MapGlyphs-China.ttf') format('truetype'),
+		url('MapGlyphs-China.woff') format('woff'),
+		url('MapGlyphs-China.svg#mapglyphs-china') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mg {
+  display: inline-block;
+  font-family: 'MapGlyphs-China';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mg-fw{
+	width:1.2em;
+	text-align:center
+}
+
+.mg-2x {
+  font-size: 2em;
+}
+.mg-3x {
+  font-size: 3em;
+}
+.mg-4x {
+  font-size: 4em;
+}
+.mg-5x {
+  font-size: 6em;
+}
+.mg-6x {
+  font-size: 8em;
+}
+
+/*Maps*/
+.map-cn:before {
+	content: "\e800";
+}
+.map-cn-hlj:before {
+	content: "\e801";
+}
+.map-cn-jl:before {
+	content: "\e802";
+}
+.map-cn-ln:before {
+	content: "\e803";
+}
+.map-cn-hb:before {
+	content: "\e804";
+}
+.map-cn-sd:before {
+	content: "\e805";
+}
+.map-cn-js:before {
+	content: "\e806";
+}
+.map-cn-zj:before {
+	content: "\e807";
+}
+.map-cn-ah:before {
+	content: "\e808";
+}
+.map-cn-hn:before {
+	content: "\e809";
+}
+.map-cn-sx:before {
+	content: "\e80a";
+}
+.map-cn-snx:before {
+	content: "\e80b";
+}
+.map-cn-gs:before {
+	content: "\e80c";
+}
+.map-cn-hub:before {
+	content: "\e80d";
+}
+.map-cn-jx:before {
+	content: "\e80e";
+}
+.map-cn-hun:before {
+	content: "\e80f";
+}
+.map-cn-gz:before {
+	content: "\e810";
+}
+.map-cn-sc:before {
+	content: "\e811";
+}
+.map-cn-yn:before {
+	content: "\e812";
+}
+.map-cn-qh:before {
+	content: "\e813";
+}
+.map-cn-han:before {
+	content: "\e814";
+}
+.map-cn-cq:before {
+	content: "\e815";
+}
+.map-cn-tj:before {
+	content: "\e816";
+}
+.map-cn-bj:before {
+	content: "\e817";
+}
+.map-cn-nx:before {
+	content: "\e818";
+}
+.map-cn-im:before {
+	content: "\e819";
+}
+.map-cn-gx:before {
+	content: "\e81a";
+}
+.map-cn-xj:before {
+	content: "\e81b";
+}
+.map-cn-tb:before {
+	content: "\e81c";
+}
+.map-cn-sh:before {
+	content: "\e81d";
+}
+.map-cn-js:before {
+	content: "\e81e";
+}
+.map-cn-fj:before {
+	content: "\e81f";
+}
+.map-cn-gd:before {
+	content: "\e820";
+}
+.map-cn-tw:before {
+	content: "\e821";
+}
+.map-cn-mc:before {
+	content: "\e822";
+}
+.map-cn-hk:before {
+	content: "\e823";
+}
